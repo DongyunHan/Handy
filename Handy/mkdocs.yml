@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Handy Docs
 pages:
     - Home: index.md
     - How To : how_to.md
