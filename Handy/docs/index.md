@@ -46,6 +46,7 @@ Languages: Python, C#, HTML, JavaScript, Ajax, ... Technologies: Keras, Flask, M
 ## Personal Information
 Date of Birth: 09/25/1991 / Nationality: Republic of Korea
 Languages: Native Korean, Fluent Japanese, Intermediate English, Basic Chinese
+
 <!-- For full documentation visit [mkdocs.org](https://mkdocs.org).
 
 ## Commands
