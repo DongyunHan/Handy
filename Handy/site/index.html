@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="img/favicon.ico">
-        <title>My Docs</title>
+        <title>Dongyun Han</title>
         <link href="css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
@@ -32,11 +32,27 @@
 
                 <!-- Collapsed navigation -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href=".">My Docs</a>
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href=".">Dongyun Han</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href=".">Home</a>
+                            </li>
+                            <li >
+                                <a href="how_to/">How To</a>
+                            </li>
+                        </ul>
 
                     <ul class="nav navbar-nav navbar-right">
                         <li>
@@ -44,6 +60,16 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li class="disabled">
+                                <a rel="next" >
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="how_to/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -52,15 +78,64 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome-to-mkdocs">Welcome to MkDocs</a></li>
+        <li class="main active"><a href="#hi-this-is-dongyun-han">Hi this is Dongyun Han</a></li>
+            <li><a href="#research-interests">Research Interests</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#research-experience">Research Experience</a></li>
+            <li><a href="#awards-achievements">Awards &amp; Achievements</a></li>
+            <li><a href="#computer-skills">Computer Skills</a></li>
+            <li><a href="#personal-information">Personal Information</a></li>
             <li><a href="#commands">Commands</a></li>
             <li><a href="#project-layout">Project layout</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
-<p>For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
+<p><img src="img/temp_my_image.jpeg" width="200" style ="padding: 10px; float:right;"></p>
+<h1 id="hi-this-is-dongyun-han">Hi this is Dongyun Han</h1>
+<p>Graduate Student, Computer Science, UNIST
+Mail Address: handy113@unist.ac.kr Webpage : dongyunhan.github.io/Handy/ Github : github.com/DongyunHan +82-10-5773-6408</p>
+<h2 id="research-interests">Research Interests</h2>
+<ul>
+<li>Human-Computer Interaction (Especially on AR and</li>
+<li>Wearable Devices) Visualisation &amp; IOT</li>
+</ul>
+<h2 id="education">Education</h2>
+<ul>
+<li>Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea
+Master in, Computer Engineering, March’ 18 - Present</li>
+<li>Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea
+Bachelor in, Electrical and Computer Engineering, March’ 10 - February’ 18 including 2 years of military service</li>
+</ul>
+<h2 id="research-experience">Research Experience</h2>
+<p>Building Diagram for How MERS-CoV is Spreaded
+Supervisor : Prof. Chang-Hyeong Lee, UNIST
+Internship, March ’12 - May ’12
+- Poster exhibition at UNIST
+- By drawing flows about how infectees will be infected,cured or died as a diagram,
+Reconstructing Perpendicular Images from Multi-Scale Images of the Brain
+Supervisor : Prof. Won-Ki Jeong, UNIST Internship, Nov. ’12 - February ’13
+- Down sampled images from set of several parallel cross-sectional images of the brain in high resolu- tion, reconstruct the perpendicular images in clear resolution
+AirScope: Visualizing Fine Dusts in AR
+Supervisor : Prof. Sung-Ahn Ko and Prof. Young-Woo Park, UNIST
+Internship, June ’17 - Dec. ’17
+- Submit to HCI Korea ’18 Creative Award
+- Cooperated with a design background student
+- Built a concept of AR device to show how many fine dusts exist in the air intuitively
+OK, Developers, Now you can design: An Interactive feedback-based Mobile GUI Prototyping Tool
+Supervisor : Prof. Sung-Ahn Ko, UNIST June ’18 - Sep.’18
+- Under Submitting to ACM UIST ’19 as the third author
+- Interviewed with 16 novice developers to understand their problems with an existing tool
+- Built a mobile GUI prototyping tool in Google Extension that provides instant feedback on users design</p>
+<h2 id="awards-achievements">Awards &amp; Achievements</h2>
+<p>Awarded the Creative Award for design work presentation at HCI KOREA ’18
+Registered patent application named ’Visualization Apparatus for Displaying Fine Dust’ as patent number 18-83657</p>
+<h2 id="computer-skills">Computer Skills</h2>
+<p>Languages: Python, C#, HTML, JavaScript, Ajax, ... Technologies: Keras, Flask, MongoDB, ...</p>
+<h2 id="personal-information">Personal Information</h2>
+<p>Date of Birth: 09/25/1991 / Nationality: Republic of Korea
+Languages: Native Korean, Fluent Japanese, Intermediate English, Basic Chinese
+&lt;!-- For full documentation visit <a href="https://mkdocs.org">mkdocs.org</a>.</p>
 <h2 id="commands">Commands</h2>
 <ul>
 <li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
@@ -72,7 +147,7 @@
 <pre><code>mkdocs.yml    # The configuration file.
 docs/
     index.md  # The documentation homepage.
-    ...       # Other markdown pages, images and other files.
+    ...       # Other markdown pages, images and other files. --&gt;
 </code></pre></div>
         </div>
 
@@ -156,5 +231,5 @@ docs/
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2019-03-13 03:19:56
+Build Date UTC : 2019-03-15 09:21:56
 -->
