@@ -14,16 +14,23 @@ Phone: +82-10-5773-6408
 
 ## Research Interests
 -----
-- **HCI** (Especially on AR and Wearable Devices)
-- **Visualisation**
+#### HCI (Especially on AR and Wearable Devices)
+#### Visualisation
 <br>
 
 ## Education
 -----
-* Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea
-Master in, Computer Engineering, March’ 18 - Present
-* Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea
-Bachelor in, Electrical and Computer Engineering, March’ 10 - February’ 18 including 2 years of military service
+#### Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea
+
+<div style="margin-left: 40px">
+Master in, Computer Engineering </br>
+March’ 18 - Present
+</div>
+
+#### Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea
+<div style="margin-left: 40px">
+Bachelor in, Electrical and Computer Engineering </br> March’ 10 - February’ 18 ( including 2 years for Military Service in the Air force)
+</div>
 <br>
 ## Research Experience
 -----
