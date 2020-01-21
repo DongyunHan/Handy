@@ -6,9 +6,10 @@ test [tt](./index.md)
 ## Commands
 
 * `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
+* `mkdocs serve` - Start the live-reloading docs server. 127.0.0.1:8000
 * `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
+* `mkdocs gh-deploy` - Deploy command. Call it before pushing it into github. 
+* `mkdocs help` - Print help messages.
 
 ## Project layout
 

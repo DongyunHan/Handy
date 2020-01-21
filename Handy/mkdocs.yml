@@ -1,6 +1,6 @@
 site_name: Dongyun Han
 pages:
-    - Home: index.md
-    - Intorduction: introduction.md
-    - Research Interest: research_interest.md
-    - How To : how_to.md
+  - Home: index.md
+  - Intorduction: introduction.md
+  - Visualanalytics: visualanalytics.md
+  - How To: how_to.md
