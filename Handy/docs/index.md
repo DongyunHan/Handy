@@ -1,5 +1,5 @@
-Move to <a href="../introduction/">Introduction</a> </br>
-Move to <a href="../visualanalytics/">visual analytics</a>
+Move to <a href="../Handy/introduction/">Introduction</a> </br>
+Move to <a href="../Handy/visualanalytics/">visual analytics</a>
 
 <img src="img/temp_my_image.jpeg" width="180" style ="margin-left:10px; padding: 10px; float:right;">
 # Hi, I am Dongyun Han
