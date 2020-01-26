@@ -1,7 +1,7 @@
 Move to <a href="../Handy/introduction/">Introduction</a> </br>
 Move to <a href="../Handy/visualanalytics/">visual analytics</a> </br>
 Move to <a href="../Handy/big5/">big5</a> </br>
-Move to <a href="../Handy/sgv/">sgv</a> </br>
+Move to <a href="../Handy/svg/">svg</a> </br>
 
 <img src="img/temp_my_image.jpeg" width="180" style ="margin-left:10px; padding: 10px; float:right;">
 # Hi, I am Dongyun Han
