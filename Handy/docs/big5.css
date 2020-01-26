@@ -23,15 +23,11 @@ line {
   text-anchor: end;
 }
 
-h1 {
-  color: blue;
-}
-
-text {
-  text-anchor: start;
-  alignment-baseline: hanging;
-}
-
 rect {
   height: 50px;
+}
+
+.number-label {
+  text-anchor: start;
+  dominant-baseline: middle;
 }

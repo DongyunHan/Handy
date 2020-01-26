@@ -4,4 +4,6 @@ pages:
   - Intorduction: introduction.md
   - Visualanalytics: visualanalytics.md
   - How To: how_to.md
+  - big5: big5.md
+  - svg: svg.md
 extra_css: [big5.css]
