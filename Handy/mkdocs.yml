@@ -6,4 +6,4 @@ pages:
   - How To: how_to.md
   - big5: big5.md
   - svg: svg.md
-extra_css: [big5.css]
+extra_css: [big5.css, svg.css]
