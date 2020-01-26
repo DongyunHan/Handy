@@ -1,0 +1,15 @@
+g#svg_mondrian > rect {
+  stroke-width: 5;
+  stroke: black;
+}
+
+g#svg_google > #svg_google_O {
+  fill: transparent;
+  stroke-width: 3;
+  stroke: red;
+}
+
+g#svg_google > #svg_google_L {
+  stroke: green;
+  stroke-width: 4;
+}
