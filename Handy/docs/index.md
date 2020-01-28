@@ -7,7 +7,7 @@ Move to <a href="../Handy/svg/">svg</a> </br>
 # Hi, I am Dongyun Han
 He is a Ph.D. student in the department of Computer Science at North Carolina A&T, NC, USA. He graduated from the UNIST(Ulsan National Institute of Science and Technology), with master and bachelors degree in Computer Science in 2020 and 2018 each. After graduation, he is currently working on a Doctor of Philosophy in Computer Science at North Carolina A&T. His research topic is HCI, especially on Data Visualization and Virtual Reality.
 
-My formal CV is <a href="source/DongyunHan_Resume.pdf"> here </a> (expected to update)
+My formal CV is <a href="source/DongyunHan_Resume.pdf"> here </a>
 
 </br>
 Mail Address: [dhan@aggies.ncat.edu](mailto:dhan@aggies.ncat.edu) | [dyhan113@gmail.com](mailto:dyhan113@gmail.com) </br>
