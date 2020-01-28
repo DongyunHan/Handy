@@ -26,8 +26,3 @@ line {
 rect {
   height: 50px;
 }
-
-.number-label {
-  text-anchor: start;
-  dominant-baseline: middle;
-}
