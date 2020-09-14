@@ -35,6 +35,9 @@ He is a Ph.D. student in the department of Computer Science at North Carolina A&
 <div>
 <img src="img/VIS_2018.jpeg" width="200" style ="margin-left:10px; padding: 10px; ">
 <img src="img/UIST_2018.jpg" width="200"style ="margin-left:10px; padding: 10px; ">
+<img src="img/CHI_2018.jpeg" width="180" style ="margin-left:10px; padding: 10px; ">
+<br>
+<img src="img/Yukie.jpeg" width="180" style ="margin-left:10px; padding: 10px; ">
 <img src="img/Dongyun_2019.jpeg" width="180" style ="margin-left:10px; padding: 10px; ">
 </div>
 
