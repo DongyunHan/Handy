@@ -21,7 +21,7 @@ Jan.' 2020 - Present
 <img src="../img/UNIST_logo.png" width="40" style="margin-top:0; margin-bottom:20px ; border:0; display:inline-block; ">
 <div style="display:inline-block">
 M.S. in, Computer Science </br>
-March’ 2018 - Feb.' 2020 (expected to graduate)
+March’ 2018 - Feb.' 2020
 </div>
 </div>
 
@@ -29,7 +29,7 @@ March’ 2018 - Feb.' 2020 (expected to graduate)
 <div><span> <b style="font-size:1.3em">Ulsan National Institute of Science and Technology (UNIST)</b>, Ulasn, Republic of Korea</span> </div><img src="../img/UNIST_logo.png" width="40" style="margin-top:0; margin-bottom:20px ; border:0; display:inline-block; ">
 <div style="display:inline-block">
 B.S. in, Electrical and Computer Engineering </br>
-March’ 2010 - February’ 2018 (including 2 years for Military Service in the Air force)
+March’ 2010 - February’ 2018 
 </div>
 </div>
 <br>
