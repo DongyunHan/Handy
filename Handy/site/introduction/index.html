@@ -9,78 +9,51 @@
         
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Intorduction - Dongyun Han</title>
-        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-        <link href="../big5.css" rel="stylesheet">
-        <link href="../svg.css" rel="stylesheet">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-        <![endif]-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/color-brewer.min.css">
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
-
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-
-                <!-- Collapsed navigation -->
-                <div class="navbar-header">
-                    <!-- Expander button -->
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="..">Dongyun Han</a>
-                </div>
+                <a class="navbar-brand" href="..">Dongyun Han</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <!-- Expanded navigation -->
-                <div class="navbar-collapse collapse">
+                <div id="navbar-collapse" class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="..">Home</a>
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
                             </li>
-                            <li class="active">
-                                <a href="./">Intorduction</a>
-                            </li>
-                            <li >
-                                <a href="../visualanalytics/">Visualanalytics</a>
-                            </li>
-                            <li >
-                                <a href="../how_to/">How To</a>
-                            </li>
-                            <li >
-                                <a href="../big5/">big5</a>
-                            </li>
-                            <li >
-                                <a href="../svg/">svg</a>
+                            <li class="navitem active">
+                                <a href="./" class="nav-link">Intorduction</a>
                             </li>
                         </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
-                            <li >
-                                <a rel="next" href="..">
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li >
-                                <a rel="prev" href="../visualanalytics/">
+                            <li class="nav-item">
+                                <a rel="next" class="nav-link disabled">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -90,82 +63,132 @@
         </div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#research-interests">Research Interests</a></li>
-            <li><a href="#hci-especially-on-vr-ar">HCI (Especially on VR &amp; AR)</a></li>
-            <li><a href="#information-visualisation-and-visual-analytics">Information Visualisation and Visual Analytics</a></li>
-        <li class="main "><a href="#education">Education</a></li>
-        <li class="main "><a href="#research-experience">Research Experience</a></li>
-            <li><a href="#internship-at-interactive-visual-analysis-data-exploration-reasearch-lab-unist">Internship at Interactive Visual Analysis &amp; Data Exploration Reasearch Lab, UNIST </a></li>
-            <li><a href="#intership-at-high-performance-visual-computing-lab-unist">Intership at High-performance Visual Computing Lab, UNIST </a></li>
-            <li><a href="#internship-at-biomathematics-lab-unist">Internship at Biomathematics Lab, UNIST. </a></li>
-        <li class="main "><a href="#awards-achievements">Awards &amp; Achievements</a></li>
-        <li class="main "><a href="#computer-skills">Computer Skills</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
 
-<p>go back to <a href="../index.html">index</a></p>
-<h2 id="research-interests">Research Interests</h2>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="2"><a href="#education" class="nav-link">Education</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#publications" class="nav-link">Publications</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#research-experience" class="nav-link">Research Experience</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#awards-achievements" class="nav-link">Awards &amp; Achievements</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="2"><a href="#other" class="nav-link">Other</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<!-- go back to <a href="../index.html">index</a> -->
+
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"> -->
+
+<h2 id="education"><i class="fa fa-university"></i> Education</h2>
 <hr />
-<h4 id="hci-especially-on-vr-ar">HCI (Especially on VR &amp; AR)</h4>
-<h4 id="information-visualisation-and-visual-analytics">Information Visualisation and Visual Analytics</h4>
-<p><br></p>
-<h2 id="education">Education</h2>
-<hr />
+<!-- <h2><i class="fas fa-university"></i>Education </h2> -->
+
 <div>
-<h4> North Carolina Agricultural and Technical State University, NC, USA</h4>
+<div><span> <b style="font-size:1.3em"> North Carolina Agricultural and Technical State University</b>, NC, USA</span> </div>
 <img src="../img/NCAT_logo.png" width="40" style="margin-top:0; margin-bottom:20px ; border:0; display:inline-block; ">
 <div style="display:inline-block">
-Ph.D. in, Computer Science </br>
+Ph.D. Student in, Computer Science </br>
 Jan.' 2020 - Present
 </div>
 </div>
 
 <div>
-<h4> Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea </h4>
+<div><span> <b style="font-size:1.3em">Ulsan National Institute of Science and Technology (UNIST)</b>, Ulasn, Republic of Korea</span> </div>
 <img src="../img/UNIST_logo.png" width="40" style="margin-top:0; margin-bottom:20px ; border:0; display:inline-block; ">
 <div style="display:inline-block">
-Master in, Computer Science </br>
+M.S. in, Computer Science </br>
 March’ 2018 - Feb.' 2020 (expected to graduate)
 </div>
 </div>
 
 <div>
-<h4> Ulsan National Institute of Science and Technology, Ulasn, Republic of Korea </h4>
-<img src="../img/UNIST_logo.png" width="40" style="margin-top:0; margin-bottom:20px ; border:0; display:inline-block; ">
+<div><span> <b style="font-size:1.3em">Ulsan National Institute of Science and Technology (UNIST)</b>, Ulasn, Republic of Korea</span> </div><img src="../img/UNIST_logo.png" width="40" style="margin-top:0; margin-bottom:20px ; border:0; display:inline-block; ">
 <div style="display:inline-block">
-Bachelor in, Electrical and Computer Engineering </br>
+B.S. in, Electrical and Computer Engineering </br>
 March’ 2010 - February’ 2018 (including 2 years for Military Service in the Air force)
 </div>
 </div>
 
 <p><br></p>
-<h2 id="research-experience">Research Experience</h2>
+<h2 id="publications"><i class="fa fa-book"></i> Publications</h2>
 <hr />
+<ul>
+<li>Chunggi Lee, Sanghoon Kim, <strong>Dongyun Han</strong>, Hongjun Yang, Young-Woo Park, Bum Chul Kwon, Sungahn Ko*
+  <strong>GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback</strong>, ACM Conference on Human Factors in Computing Systems (CHI), 2020</li>
+</ul>
+<p><br></p>
+<h2 id="research-experience"><i class="fa fa-flask"></i> Research Experience</h2>
+<hr />
+<!-- #### HisVA: A Visual Analytics System for Learning History
+
+- Supervisor : Prof. Sung-Ahn Ko, UNIST
+- Period: Jan. 2019 -  Present
+- This project is aimed to support students to learn history. HisVA is a visualization system providing visual interfaces (e.g., map, timeline, and list of events) helping students explore various historical events and analyze them.
+- I am the first author in this project, and I've gained experience working with multidisciplinary researchers major in cognitive science, education, and history.
+- Preparing to submit the paper.  -->
+
+<h4 id="guicomp-a-gui-design-assistant-with-real-time-multi-faceted-feedback">GUIComp: A GUI Design Assistant with Real-Time, Multi-Faceted Feedback</h4>
+<ul>
+<li>Supervisor : Prof. Sung-Ahn Ko, UNIST</li>
+<li>Period: June 2018 - Dec. 2019</li>
+<li>This project is aimed to support novice designers in designing Mobile GUI process. GUIComp provides instant feedback on user’s current design, such as visual complexity scores, end-users’ attention heatmap, and recommended designs.</li>
+<li>I am the third author, and I implemented the front-end of the system.</li>
+<li>It is accepted by ACM CHI 2020.</li>
+</ul>
 <h4 id="internship-at-interactive-visual-analysis-data-exploration-reasearch-lab-unist"><strong>Internship</strong> at Interactive Visual Analysis &amp; Data Exploration Reasearch Lab, UNIST </br></h4>
 <ul>
 <li>Supervisor : Prof. Sung-Ahn Ko and Prof. Young-Woo Park, UNIST</li>
 <li>Period: June ’17 - Dec. ’17</li>
-<li>Submit to HCI Korea ’18 Creative Award</li>
-<li>Cooperated with a design background student</li>
-<li>Built a concept of AR device to show how many fine dusts exist in the air intuitively
-  OK, Developers, Now you can design: An Interactive feedback-based Mobile GUI Prototyping Tool</li>
+<li>In this project, we built AirScope, a prototype AR device using Arduino UNO. It is aimed to intuitively show how much fine dusts there are in the air around users.</li>
+<li>I've gained experience collaborating with researchers from the Design perspective.</li>
+<li>It earned Creative Award at HCI Korea '18</li>
 </ul>
 <h4 id="intership-at-high-performance-visual-computing-lab-unist"><strong>Intership</strong> at High-performance Visual Computing Lab, UNIST </br></h4>
 <ul>
 <li>Supervisor : Prof. Won-Ki Jeong, UNIST</li>
 <li>Period: Nov. ’12 - February ’13</li>
-<li>Research about <em>"Reconstructing Perpendicular Images from Multi-Scale Images of the Brain"</em></li>
-<li>Down sampled images from set of several parallel cross-sectional images of the brain in high resolu- tion, reconstruct the perpendicular images in clear resolution</li>
+<li>I implement a program reconstructing the perpendicular images from parallel cross-sectional brain images in high resolution using C++ and OpenCV.</li>
+<li>I learned OpenCV, a library for computer vision.
+  <!-- - Research about _"Reconstructing Perpendicular Images from Multi-Scale Images of the Brain"_ -->
+  <!-- - I Down sampled images from set of several parallel cross-sectional images of the brain in high resolu- tion, reconstruct the perpendicular images in clear resolution --></li>
 </ul>
 <h4 id="internship-at-biomathematics-lab-unist"><strong>Internship</strong> at Biomathematics Lab, UNIST. </br></h4>
 <ul>
 <li>Supervisor : Prof. Chang-Hyeong Lee, UNIST</li>
 <li>Period: March ’12 - May ’12</li>
-<li>Present Poster about <strong><em>"Representing Diagram for How MERS-CoV is Spreaded"</em></strong></li>
-<li>Represented a diagram how infectees will be infected,cured or died by describing each nodes for possible states of infectees and each links for percentage of change from state A to state B</li>
+<li>I participated the research project developing mathematical infection model for the Middle East Respiratory Syndrome (MERS, a.k.a. camel flu).</li>
+<li>I got the experience of applying mathematics to the real world.
+  <!-- - Present Poster about **_"Representing Diagram for How MERS-CoV is Spreaded"_** -->
+  <!-- - Represented a diagram how infectees will be infected,cured or died by describing each nodes for possible states of infectees and each links for percentage of change from state A to state B --></li>
 </ul>
 <!--
 Supervisor : Prof. Sung-Ahn Ko, UNIST June ’18 - Sep.’18
@@ -173,18 +196,20 @@ Supervisor : Prof. Sung-Ahn Ko, UNIST June ’18 - Sep.’18
 - Interviewed with 16 novice developers to understand their problems with an existing tool
 - Built a mobile GUI prototyping tool in Google Extension that provides instant feedback on users design -->
 
-<h2 id="awards-achievements">Awards &amp; Achievements</h2>
+<h2 id="awards-achievements"><i class="fa fa-star"></i> Awards &amp; Achievements</h2>
 <hr />
 <ul>
-<li>Awarded the Creative Award for design work presentation at HCI KOREA ’18</li>
-<li>Registered patent application named ’Visualization Apparatus for Displaying Fine Dust’ as patent number 18-83657</li>
+<li><strong>Scholarship</strong> National Scholarship for Graduate student from Korean Government, 2018 - 2020</li>
+<li><strong>Creative Award</strong> design work presentation at HCI KOREA '18, 2018</li>
+<li><strong>Patent</strong> Patent number 18-83657, 'Visualization Apparatus for Displaying Fine Dust', 2018</li>
+<li><strong>Scholarship</strong> National Scholarship for Undergraduate student from Korean Government, 2010 - 2013, 2015, 2017</li>
 </ul>
-<h2 id="computer-skills">Computer Skills</h2>
+<h2 id="other"><i class="fa fa-paw"></i> Other</h2>
 <hr />
 <ul>
-<li><strong>Languages:</strong> Python, C#, HTML, JavaScript, Ajax, ...</li>
-<li><strong>Technologies:</strong> Keras, Flask, MongoDB, ...</li>
+<li>Mailing list moderator, IEEE Virtual Reality (VR), Jan. 2020 - present}</li>
 </ul></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
@@ -198,21 +223,21 @@ Supervisor : Prof. Sung-Ahn Ko, UNIST June ’18 - Sep.’18
         <script src="../js/base.js" defer></script>
         <script src="../search/main.js" defer></script>
 
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
@@ -221,12 +246,12 @@ Supervisor : Prof. Sung-Ahn Ko, UNIST June ’18 - Sep.’18
             </div>
         </div>
     </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
             </div>
             <div class="modal-body">
               <table class="table">
